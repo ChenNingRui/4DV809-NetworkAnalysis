@@ -47,7 +47,6 @@ import { v4 as uuidv4 } from 'uuid';
     if(kList.indexOf(node.id) !== -1 && filterList.indexOf(node.id) === -1) {
       res = true;
     }
-    console.log(kList.indexOf(node.id))
     return res;
   }
 
